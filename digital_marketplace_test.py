@@ -236,7 +236,6 @@ def test_buy(
         == 2
     )
 
-#Show case global state in LORA
 # Test case to delete the application and retrieve the remaining assets and funds
 def test_delete_application(
     digital_marketplace_client: DigitalMarketplaceClient,
